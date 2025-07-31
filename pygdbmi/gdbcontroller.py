@@ -90,6 +90,7 @@ class GdbController:
         self.gdb_process = subprocess.Popen(
             self.command,
             shell=False,
+            creationflags=subprocess.CREATE_NO_WINDOW,
             stdout=subprocess.PIPE,
             stdin=subprocess.PIPE,
             stderr=subprocess.PIPE,
