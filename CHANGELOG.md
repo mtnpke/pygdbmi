@@ -2,7 +2,7 @@
 
 ## <0.11.0.1>.dev0
 
-- *Replace this line with new entries*
+- Alwyays hide gdb console window on Windows.
 
 ## 0.11.0.0
 
